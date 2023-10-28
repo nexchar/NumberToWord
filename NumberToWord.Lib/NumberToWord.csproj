@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Nexchar.NumberToWord</PackageId>
+    <Authors>Nexchar Tech</Authors>
+    <Copyright>Nexchar.com</Copyright>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Description>This library converts numbers to their word representation</Description>
+  </PropertyGroup>
+
+</Project>
