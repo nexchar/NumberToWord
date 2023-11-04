@@ -10,13 +10,11 @@ namespace NumberToWord
         /// Uses the International Numeral System for Words Conversion
         /// </summary>
         International,
-        /// <summary>
-        /// Uses the Nepalese Numeral System for Words Conversion
-        /// </summary>
+  
    
         /// <summary>
-        /// Uses the Hindi Numeral System for Words Conversion
+        /// Uses the Indian Numeral System for Words Conversion
         /// </summary>
-        Hindi
+        SouthernAsia
     }
 }

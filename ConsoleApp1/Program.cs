@@ -10,7 +10,7 @@ namespace ConsoleApp1
         {
             CurrencyWordsConverter converter = new CurrencyWordsConverter(new CurrencyWordsConversionOptions()
             {
-                Culture = Culture.Hindi,
+                Culture = Culture.International,
                 OutputFormat = OutputFormat.English,
                 CurrencyUnitSeparator = string.Empty,
                 CurrencyUnit = "pound",
@@ -19,7 +19,7 @@ namespace ConsoleApp1
             });
             string words = converter.ToWords(105000.25M);
 
-            //words = number.To
+         
             Console.WriteLine(words);
             Console.ReadKey();
         }

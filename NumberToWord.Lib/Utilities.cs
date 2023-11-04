@@ -46,7 +46,7 @@ namespace NumberToWord
                     ones = WordResources.OnesEnglish;
                     tens = WordResources.TensEnglish;
                     break;
-                case Culture.Hindi:
+                case Culture.SouthernAsia:
                     switch (options.OutputFormat)
                     {
                         case OutputFormat.English:
